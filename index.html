@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rock Solid Christian Church - Mockup</title>
-    <!-- Favicon: use rock logo SVG -->
-    <link rel="icon" type="image/svg+xml" href="assets/logo-rock.svg" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/nav/logo-rock.svg" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -34,13 +34,21 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Primary site navigation -->
     <nav class="navbar">
       <div
         class="container-fluid d-flex flex-wrap justify-content-between align-items-center nav-container"
       >
         <a href="#" class="navbar-brand">
-          <img src="assets/logo.svg" alt="Company Logo" />
+          <img
+            src="assets/nav/logo.svg"
+            alt="Rock Solid Church"
+            class="d-none d-lg-block"
+          />
+          <img
+            src="assets/nav/logo-rock.svg"
+            alt="Rock Solid Church"
+            class="d-block d-lg-none"
+          />
         </a>
         <div class="d-flex align-items-center nav-actions nav-actions-header">
           <button type="button" class="btn btn-nav">Give Online</button>
@@ -54,7 +62,7 @@
             aria-label="Toggle navigation"
           >
             <img
-              src="assets/hamburger-menu.svg"
+              src="assets/nav/hamburger-menu.svg"
               alt=""
               class="icon icon-hamburger"
               width="23"
@@ -81,7 +89,7 @@
                   aria-label="Open menu"
                 >
                   <img
-                    src="assets/hamburger-menu.svg"
+                    src="assets/nav/hamburger-menu.svg"
                     alt=""
                     class="icon icon-hamburger"
                     width="23"
@@ -93,7 +101,7 @@
           </div>
           <a href="#" class="btn btn-ghost d-inline-flex align-items-center">
             <img
-              src="assets/person.svg"
+              src="assets/nav/person.svg"
               alt=""
               class="btn-ghost-icon icon icon-person"
               width="24"
@@ -106,7 +114,6 @@
     </nav>
 
     <main>
-      <!-- Full-bleed hero with headline, primary CTAs, and countdown -->
       <section class="hero">
         <div class="hero-inner">
           <div
@@ -128,7 +135,7 @@
             <div class="hero-bar-spacer"></div>
             <div class="hero-bar-timer">
               Next Service Starts In:
-              <span id="serviceCountdown">00:00:00</span>
+              <span id="serviceCountdown">00h 00m 00s</span>
             </div>
             <div class="hero-bar-socials d-flex justify-content-end">
               <a href="#" class="social-link" aria-label="Facebook"
@@ -148,15 +155,16 @@
         </div>
       </section>
 
-      <!-- First content band: welcome copy and supporting image -->
       <section class="content-section">
         <div class="content-section-inner d-flex flex-column">
           <div
             class="content-top d-flex flex-wrap justify-content-between align-items-end"
           >
             <div class="content-block-1">
-              <p class="content-eyebrow">WELCOME TO ROCK SOLID</p>
-              <p class="content-headline">
+              <p class="content-eyebrow text-body-secondary mb-2">
+                WELCOME TO ROCK SOLID
+              </p>
+              <p class="content-headline text-dark">
                 Following the Holy Spirit, we exist to create a movement of
                 disciple-making disciples.
               </p>
@@ -170,12 +178,15 @@
             </div>
           </div>
           <div class="content-bottom">
-            <img src="assets/rock-solid.png" alt="" class="content-image" />
+            <img
+              src="assets/content/rock-solid.png"
+              alt=""
+              class="content-image"
+            />
           </div>
         </div>
       </section>
 
-      <!-- Orange CTA band with three cards and gospel strip -->
       <section class="cta-section">
         <div class="cta-inner d-flex flex-column align-items-center">
           <div class="cta-content text-center">
@@ -193,14 +204,14 @@
                     class="card-body d-flex flex-column align-items-center text-center"
                   >
                     <img
-                      src="assets/watch-message.svg"
+                      src="assets/cta/watch-message.svg"
                       class="card-icon"
                       alt=""
                     />
-                    <h3 class="card-title h5 fw-bold text-dark">
+                    <h3 class="card-title h5 fw-bold text-dark mb-3">
                       Watch a Message
                     </h3>
-                    <p class="card-text flex-grow-1 text-muted">
+                    <p class="card-text flex-grow-1 text-dark">
                       Catch up on the latest and past weekend service messages
                       anytime, anywhere.
                     </p>
@@ -216,14 +227,14 @@
                     class="card-body d-flex flex-column align-items-center text-center"
                   >
                     <img
-                      src="assets/find-location.svg"
+                      src="assets/cta/find-location.svg"
                       class="card-icon"
                       alt=""
                     />
-                    <h3 class="card-title h5 fw-bold text-dark">
+                    <h3 class="card-title h5 fw-bold text-dark mb-3">
                       Find a Location
                     </h3>
-                    <p class="card-text flex-grow-1 text-muted">
+                    <p class="card-text flex-grow-1 text-dark">
                       Easily find a campus near you. Join us in person and get
                       connected.
                     </p>
@@ -237,14 +248,14 @@
                     class="card-body d-flex flex-column align-items-center text-center"
                   >
                     <img
-                      src="assets/get-connected.svg"
+                      src="assets/cta/get-connected.svg"
                       class="card-icon"
                       alt=""
                     />
-                    <h3 class="card-title h5 fw-bold text-dark">
+                    <h3 class="card-title h5 fw-bold text-dark mb-3">
                       Get Connected
                     </h3>
-                    <p class="card-text flex-grow-1 text-muted">
+                    <p class="card-text flex-grow-1 text-dark">
                       Stay connected and in the loop—sign up for updates,
                       events, and ways to get involved.
                     </p>
@@ -254,10 +265,9 @@
               </div>
             </div>
           </div>
-          <!-- Gospel explanation and supporting image -->
           <div class="gospel-wrapper w-100 container">
             <div
-              class="gospel-banner d-flex flex-wrap justify-content-between align-items-end"
+              class="gospel-banner d-flex flex-wrap justify-content-between align-items-end gap-3"
             >
               <div class="gospel-block-1">
                 <p class="gospel-eyebrow text-uppercase">GOSPEL</p>
@@ -276,33 +286,36 @@
               </div>
             </div>
             <div class="gospel-image-wrap">
-              <img src="assets/gospel.png" alt="" class="gospel-image" />
+              <img src="assets/cta/gospel.png" alt="" class="gospel-image" />
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Big impact statement with single CTA -->
       <section class="impact-section">
-        <h2 class="impact-heading">
-          <span class="impact-heading-dark"
-            >Rock Solid Church continues to hold out </span
-          ><span class="impact-heading-orange">love</span
+        <h2 class="impact-heading text-center text-uppercase">
+          <span class="text-dark">Rock Solid Church continues to hold out </span
+          ><span class="text-primary">love</span
           ><span class="impact-heading-muted">
             and Hope to the entire world.</span
           >
         </h2>
-        <a href="#" class="btn btn-impact">Plan a Visit</a>
+        <a href="#" class="btn btn-impact btn-dark">Plan a Visit</a>
       </section>
 
-      <!-- Volunteer highlight and ministries carousel -->
       <section class="volunteer-section">
         <div
           class="volunteer-card d-flex flex-column align-items-center text-center"
         >
-          <img src="assets/volunteer.svg" alt="" class="volunteer-icon" />
-          <h3 class="volunteer-heading">Find a Place to Volunteer</h3>
-          <p class="volunteer-text">
+          <img
+            src="assets/volunteer/volunteer.svg"
+            alt=""
+            class="volunteer-icon"
+          />
+          <h3 class="volunteer-heading text-dark mb-3">
+            Find a Place to Volunteer
+          </h3>
+          <p class="volunteer-text m-0">
             Explore our ministries—find your place, grow in faith, and connect
             with a vibrant community!
           </p>
@@ -311,45 +324,45 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/prayer-care.png" alt="" />
+                <img src="assets/volunteer/carousel/prayer-care.png" alt="" />
               </div>
-              <p class="slide-caption">Prayer & Care</p>
+              <p class="slide-caption mt-3">Prayer & Care</p>
             </div>
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/kids.png" alt="" />
+                <img src="assets/volunteer/carousel/kids.png" alt="" />
               </div>
-              <p class="slide-caption">Kids</p>
+              <p class="slide-caption mt-3">Kids</p>
             </div>
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/students.png" alt="" />
+                <img src="assets/volunteer/carousel/students.png" alt="" />
               </div>
-              <p class="slide-caption">Students</p>
+              <p class="slide-caption mt-3">Students</p>
             </div>
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/worship.png" alt="" />
+                <img src="assets/volunteer/carousel/worship.png" alt="" />
               </div>
-              <p class="slide-caption">Worship</p>
+              <p class="slide-caption mt-3">Worship</p>
             </div>
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/men.png" alt="" />
+                <img src="assets/volunteer/carousel/men.png" alt="" />
               </div>
-              <p class="slide-caption">Men</p>
+              <p class="slide-caption mt-3">Men</p>
             </div>
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/women.png" alt="" />
+                <img src="assets/volunteer/carousel/women.png" alt="" />
               </div>
-              <p class="slide-caption">Women</p>
+              <p class="slide-caption mt-3">Women</p>
             </div>
             <div class="swiper-slide">
               <div class="slide-image-wrap">
-                <img src="assets/carousel/small-groups.png" alt="" />
+                <img src="assets/volunteer/carousel/small-groups.png" alt="" />
               </div>
-              <p class="slide-caption">Small Groups</p>
+              <p class="slide-caption mt-3">Small Groups</p>
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -358,48 +371,54 @@
         </div>
       </section>
 
-      <!-- Stories section: featured testimony + three-story grid -->
       <section class="stories-section">
         <div class="stories-inner">
           <div class="container">
             <div class="row g-4 align-items-start">
               <div class="col-12 col-lg-5">
                 <div class="stories-copy text-white">
-                  <h2 class="stories-heading">
+                  <h2 class="stories-heading mb-3">
                     Saved Lives Are<br />Changed Lives.
                   </h2>
-                  <p class="stories-text">
+                  <p class="stories-text mb-4">
                     Feature stories about how Rock Solid Church is making a
                     difference in our city.
                   </p>
-                  <a href="#" class="btn btn-stories">Share Your Story</a>
+                  <a href="#" class="btn btn-stories btn-primary"
+                    >Share Your Story</a
+                  >
                 </div>
               </div>
               <div class="col-12 col-lg-7">
                 <div class="stories-grid">
                   <a href="#" class="stories-tile stories-tile-lg">
                     <div class="stories-tile-media">
-                      <img src="assets/joshua.png" alt="" />
+                      <img src="assets/stories/joshua.png" alt="" />
                     </div>
-                    <span class="stories-tile-caption"
+                    <span class="stories-tile-caption text-white mt-2"
                       >Joshua’s Road to Peace</span
                     >
                   </a>
 
                   <a href="#" class="stories-tile stories-tile-sm">
                     <div class="stories-tile-media">
-                      <img src="assets/by-any-means-necessary.png" alt="" />
+                      <img
+                        src="assets/stories/by-any-means-necessary.png"
+                        alt=""
+                      />
                     </div>
-                    <span class="stories-tile-caption"
+                    <span class="stories-tile-caption text-white mt-2"
                       >By Any Means Necessary</span
                     >
                   </a>
 
                   <a href="#" class="stories-tile stories-tile-sm">
                     <div class="stories-tile-media">
-                      <img src="assets/holding-on-to-hope.png" alt="" />
+                      <img src="assets/stories/holding-on-to-hope.png" alt="" />
                     </div>
-                    <span class="stories-tile-caption">Holding on to Hope</span>
+                    <span class="stories-tile-caption text-white mt-2"
+                      >Holding on to Hope</span
+                    >
                   </a>
                 </div>
               </div>
@@ -408,7 +427,6 @@
         </div>
       </section>
 
-      <!-- Footer: brand, links, social, and legal -->
       <footer class="footer-section">
         <div class="footer-inner">
           <div class="container">
@@ -417,7 +435,7 @@
                 <div class="footer-info">
                   <div class="footer-brand d-flex align-items-center gap-3">
                     <img
-                      src="assets/logo-dark.svg"
+                      src="assets/footer/logo-dark.svg"
                       alt="Rock Solid Christian Church"
                       class="footer-logo"
                     />
@@ -451,7 +469,9 @@
               <div class="col-12 col-lg-7">
                 <div class="footer-right">
                   <div class="d-flex justify-content-lg-end gap-3">
-                    <a href="#" class="btn footer-btn footer-btn-primary"
+                    <a
+                      href="#"
+                      class="btn footer-btn footer-btn-primary btn-dark"
                       >PLAN A VISIT</a
                     >
                     <a href="#" class="btn footer-btn footer-btn-outline"
@@ -491,9 +511,13 @@
                 <div class="footer-legal">© 2025</div>
                 <span class="footer-legal-sep" aria-hidden="true">|</span>
                 <div class="footer-legal-links">
-                  <a class="footer-legal-link" href="#">Terms of Service</a>
+                  <a class="footer-legal-link link-primary" href="#"
+                    >Terms of Service</a
+                  >
                   <span class="footer-legal-sep" aria-hidden="true">|</span>
-                  <a class="footer-legal-link" href="#">Privacy Policy</a>
+                  <a class="footer-legal-link link-primary" href="#"
+                    >Privacy Policy</a
+                  >
                 </div>
               </div>
             </div>
@@ -576,13 +600,16 @@
             }
 
             const totalSeconds = Math.floor(diff / 1000);
-            const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+            const hours = String(Math.floor(totalSeconds / 3600)).padStart(
+              2,
+              "0"
+            );
             const minutes = String(
               Math.floor((totalSeconds % 3600) / 60)
             ).padStart(2, "0");
             const seconds = String(totalSeconds % 60).padStart(2, "0");
 
-            countdownEl.textContent = `${hours}:${minutes}:${seconds}`;
+            countdownEl.textContent = `${hours}h ${minutes}m ${seconds}s`;
           }
 
           updateCountdown();
