@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rock Solid Christian Church - Mockup</title>
+    <!-- Favicon: use rock logo SVG -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo-rock.svg" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Primary site navigation -->
+    <nav class="navbar">
+      <div
+        class="container-fluid d-flex flex-wrap justify-content-between align-items-center nav-container"
+      >
+        <a href="#" class="navbar-brand">
+          <img src="assets/logo.svg" alt="Company Logo" />
+        </a>
+        <div class="d-flex align-items-center nav-actions nav-actions-header">
+          <button type="button" class="btn btn-nav">Give Online</button>
+          <button
+            class="navbar-toggler btn-hamburger"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img
+              src="assets/hamburger-menu.svg"
+              alt=""
+              class="icon icon-hamburger"
+              width="23"
+              height="17"
+            />
+          </button>
+        </div>
+        <div class="collapse navbar-collapse nav-collapse" id="navbarCollapse">
+          <div class="d-flex align-items-center nav-main">
+            <div class="nav-island rounded-pill">
+              <a href="#" class="nav-link">Plan A Visit</a>
+              <a href="#" class="nav-link">Who We Are</a>
+              <a href="#" class="nav-link">Connect</a>
+              <a href="#" class="nav-link">Ministries</a>
+              <a href="#" class="nav-link">Events</a>
+              <a href="#" class="nav-link">Media</a>
+              <div
+                class="d-flex align-items-center nav-actions nav-actions-island"
+              >
+                <button type="button" class="btn btn-nav">Give Online</button>
+                <button
+                  type="button"
+                  class="btn btn-hamburger"
+                  aria-label="Open menu"
+                >
+                  <img
+                    src="assets/hamburger-menu.svg"
+                    alt=""
+                    class="icon icon-hamburger"
+                    width="23"
+                    height="17"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-ghost d-inline-flex align-items-center">
+            <img
+              src="assets/person.svg"
+              alt=""
+              class="btn-ghost-icon icon icon-person"
+              width="24"
+              height="24"
+            />
+            <span>Create Account</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Full-bleed hero with headline, primary CTAs, and countdown -->
+      <section class="hero">
+        <div class="hero-inner">
+          <div
+            class="hero-content d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <h1 class="hero-title text-white mb-0">We're Glad You're Here</h1>
+            <p class="hero-subtitle text-white mb-0">
+              We are a thriving and diverse community of real people
+              experiencing real life together.
+            </p>
+            <div class="hero-buttons d-flex gap-2">
+              <a href="#" class="btn-hero btn-hero-primary">Plan A Visit</a>
+              <a href="#" class="btn-hero btn-hero-ghost">About Us</a>
+            </div>
+          </div>
+          <div
+            class="hero-bar d-flex justify-content-between align-items-center"
+          >
+            <div class="hero-bar-spacer"></div>
+            <div class="hero-bar-timer">
+              Next Service Starts In:
+              <span id="serviceCountdown">00:00:00</span>
+            </div>
+            <div class="hero-bar-socials d-flex justify-content-end">
+              <a href="#" class="social-link" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="X"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="YouTube"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- First content band: welcome copy and supporting image -->
+      <section class="content-section">
+        <div class="content-section-inner d-flex flex-column">
+          <div
+            class="content-top d-flex flex-wrap justify-content-between align-items-end"
+          >
+            <div class="content-block-1">
+              <p class="content-eyebrow">WELCOME TO ROCK SOLID</p>
+              <p class="content-headline">
+                Following the Holy Spirit, we exist to create a movement of
+                disciple-making disciples.
+              </p>
+            </div>
+            <div class="content-block-2">
+              <p class="content-body">
+                Rock Solid Church is committed to creating a movement of
+                disciple-making disciples—men and women who reflect the
+                diversity of our community, lived out in authentic unity.
+              </p>
+            </div>
+          </div>
+          <div class="content-bottom">
+            <img src="assets/rock-solid.png" alt="" class="content-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Orange CTA band with three cards and gospel strip -->
+      <section class="cta-section">
+        <div class="cta-inner d-flex flex-column align-items-center">
+          <div class="cta-content text-center">
+            <h2 class="cta-heading">Our Mission is Simple</h2>
+            <p class="cta-text">
+              <strong>The gospel is the good news of Jesus:</strong> That Jesus
+              lived a sinless life in my place, died the death that
+            </p>
+          </div>
+          <div class="cards-wrapper container pt-4 pt-lg-5">
+            <div class="row g-4">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card cards-card h-100 border-0 shadow">
+                  <div
+                    class="card-body d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      src="assets/watch-message.svg"
+                      class="card-icon"
+                      alt=""
+                    />
+                    <h3 class="card-title h5 fw-bold text-dark">
+                      Watch a Message
+                    </h3>
+                    <p class="card-text flex-grow-1 text-muted">
+                      Catch up on the latest and past weekend service messages
+                      anytime, anywhere.
+                    </p>
+                    <a href="#" class="btn btn-card"
+                      >Catch Our Latest Message</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card cards-card h-100 border-0 shadow">
+                  <div
+                    class="card-body d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      src="assets/find-location.svg"
+                      class="card-icon"
+                      alt=""
+                    />
+                    <h3 class="card-title h5 fw-bold text-dark">
+                      Find a Location
+                    </h3>
+                    <p class="card-text flex-grow-1 text-muted">
+                      Easily find a campus near you. Join us in person and get
+                      connected.
+                    </p>
+                    <a href="#" class="btn btn-card">Search Our Campuses</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card cards-card h-100 border-0 shadow">
+                  <div
+                    class="card-body d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      src="assets/get-connected.svg"
+                      class="card-icon"
+                      alt=""
+                    />
+                    <h3 class="card-title h5 fw-bold text-dark">
+                      Get Connected
+                    </h3>
+                    <p class="card-text flex-grow-1 text-muted">
+                      Stay connected and in the loop—sign up for updates,
+                      events, and ways to get involved.
+                    </p>
+                    <a href="#" class="btn btn-card">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Gospel explanation and supporting image -->
+          <div class="gospel-wrapper w-100 container">
+            <div
+              class="gospel-banner d-flex flex-wrap justify-content-between align-items-end"
+            >
+              <div class="gospel-block-1">
+                <p class="gospel-eyebrow text-uppercase">GOSPEL</p>
+                <h2 class="gospel-heading text-white mb-0">
+                  The gospel is what should characterize us. It should be our
+                  identity: We are a gospel people.
+                </h2>
+              </div>
+              <div class="gospel-block-2">
+                <p class="gospel-body mb-0">
+                  <strong>The gospel is the good news of Jesus:</strong> That
+                  Jesus lived a sinless life in my place, died the death that I
+                  deserved, and rose to life again. And whoever believes in him
+                  has eternal life.
+                </p>
+              </div>
+            </div>
+            <div class="gospel-image-wrap">
+              <img src="assets/gospel.png" alt="" class="gospel-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Big impact statement with single CTA -->
+      <section class="impact-section">
+        <h2 class="impact-heading">
+          <span class="impact-heading-dark"
+            >Rock Solid Church continues to hold out </span
+          ><span class="impact-heading-orange">love</span
+          ><span class="impact-heading-muted">
+            and Hope to the entire world.</span
+          >
+        </h2>
+        <a href="#" class="btn btn-impact">Plan a Visit</a>
+      </section>
+
+      <!-- Volunteer highlight and ministries carousel -->
+      <section class="volunteer-section">
+        <div
+          class="volunteer-card d-flex flex-column align-items-center text-center"
+        >
+          <img src="assets/volunteer.svg" alt="" class="volunteer-icon" />
+          <h3 class="volunteer-heading">Find a Place to Volunteer</h3>
+          <p class="volunteer-text">
+            Explore our ministries—find your place, grow in faith, and connect
+            with a vibrant community!
+          </p>
+        </div>
+        <div class="swiper volunteer-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/prayer-care.png" alt="" />
+              </div>
+              <p class="slide-caption">Prayer & Care</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/kids.png" alt="" />
+              </div>
+              <p class="slide-caption">Kids</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/students.png" alt="" />
+              </div>
+              <p class="slide-caption">Students</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/worship.png" alt="" />
+              </div>
+              <p class="slide-caption">Worship</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/men.png" alt="" />
+              </div>
+              <p class="slide-caption">Men</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/women.png" alt="" />
+              </div>
+              <p class="slide-caption">Women</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-image-wrap">
+                <img src="assets/carousel/small-groups.png" alt="" />
+              </div>
+              <p class="slide-caption">Small Groups</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <!-- Stories section: featured testimony + three-story grid -->
+      <section class="stories-section">
+        <div class="stories-inner">
+          <div class="container">
+            <div class="row g-4 align-items-start">
+              <div class="col-12 col-lg-5">
+                <div class="stories-copy text-white">
+                  <h2 class="stories-heading">
+                    Saved Lives Are<br />Changed Lives.
+                  </h2>
+                  <p class="stories-text">
+                    Feature stories about how Rock Solid Church is making a
+                    difference in our city.
+                  </p>
+                  <a href="#" class="btn btn-stories">Share Your Story</a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-7">
+                <div class="stories-grid">
+                  <a href="#" class="stories-tile stories-tile-lg">
+                    <div class="stories-tile-media">
+                      <img src="assets/joshua.png" alt="" />
+                    </div>
+                    <span class="stories-tile-caption"
+                      >Joshua’s Road to Peace</span
+                    >
+                  </a>
+
+                  <a href="#" class="stories-tile stories-tile-sm">
+                    <div class="stories-tile-media">
+                      <img src="assets/by-any-means-necessary.png" alt="" />
+                    </div>
+                    <span class="stories-tile-caption"
+                      >By Any Means Necessary</span
+                    >
+                  </a>
+
+                  <a href="#" class="stories-tile stories-tile-sm">
+                    <div class="stories-tile-media">
+                      <img src="assets/holding-on-to-hope.png" alt="" />
+                    </div>
+                    <span class="stories-tile-caption">Holding on to Hope</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer: brand, links, social, and legal -->
+      <footer class="footer-section">
+        <div class="footer-inner">
+          <div class="container">
+            <div class="row g-5 align-items-lg-center">
+              <div class="col-12 col-lg-5">
+                <div class="footer-info">
+                  <div class="footer-brand d-flex align-items-center gap-3">
+                    <img
+                      src="assets/logo-dark.svg"
+                      alt="Rock Solid Christian Church"
+                      class="footer-logo"
+                    />
+                  </div>
+
+                  <div class="footer-contact-group">
+                    <div class="footer-contact">
+                      <div>11340 W. Bell Road, Suite 200</div>
+                      <div>Surprise, AZ 85378</div>
+                    </div>
+                    <div class="footer-phone">(000) 000-0000</div>
+                  </div>
+
+                  <div class="footer-socials d-flex" aria-label="Social links">
+                    <a class="footer-social" href="#" aria-label="Facebook"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a class="footer-social" href="#" aria-label="X"
+                      ><i class="bi bi-twitter-x"></i
+                    ></a>
+                    <a class="footer-social" href="#" aria-label="Instagram"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a class="footer-social" href="#" aria-label="YouTube"
+                      ><i class="bi bi-youtube"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-7">
+                <div class="footer-right">
+                  <div class="d-flex justify-content-lg-end gap-3">
+                    <a href="#" class="btn footer-btn footer-btn-primary"
+                      >PLAN A VISIT</a
+                    >
+                    <a href="#" class="btn footer-btn footer-btn-outline"
+                      >Log In</a
+                    >
+                  </div>
+
+                  <div class="row g-4">
+                    <div class="col-12 col-md-6">
+                      <div class="footer-heading">QUICK LINKS</div>
+                      <div class="footer-links d-flex flex-column">
+                        <a class="footer-link" href="#">About Rock Solid</a>
+                        <a class="footer-link" href="#">Locations</a>
+                        <a class="footer-link" href="#">Events</a>
+                        <a class="footer-link" href="#">Messages</a>
+                        <a class="footer-link" href="#">Ministries</a>
+                        <a class="footer-link" href="#">Serving</a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="footer-heading">GET IN TOUCH</div>
+                      <div class="footer-links d-flex flex-column">
+                        <a class="footer-link" href="#">Plan a Visit Request</a>
+                        <a class="footer-link" href="#">Prayer</a>
+                        <a class="footer-link" href="#">Get Help</a>
+                        <a class="footer-link" href="#">Job Openings</a>
+                        <a class="footer-link" href="#">Report an Issue</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <div class="footer-bottom-inner">
+                <div class="footer-legal">© 2025</div>
+                <span class="footer-legal-sep" aria-hidden="true">|</span>
+                <div class="footer-legal-links">
+                  <a class="footer-legal-link" href="#">Terms of Service</a>
+                  <span class="footer-legal-sep" aria-hidden="true">|</span>
+                  <a class="footer-legal-link" href="#">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Countdown to 7:00 PM MST (America/Phoenix) every day
+        (function () {
+          const countdownEl = document.getElementById("serviceCountdown");
+          if (!countdownEl) return;
+
+          const timeZone = "America/Phoenix"; // MST without DST
+
+          function getNowInPhoenix() {
+            const now = new Date();
+            const formatter = new Intl.DateTimeFormat("en-US", {
+              timeZone,
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+              hour: "2-digit",
+              minute: "2-digit",
+              second: "2-digit",
+              hour12: false,
+            });
+
+            const parts = formatter.formatToParts(now).reduce((acc, part) => {
+              if (part.type !== "literal") acc[part.type] = part.value;
+              return acc;
+            }, {});
+
+            return new Date(
+              Number(parts.year),
+              Number(parts.month) - 1,
+              Number(parts.day),
+              Number(parts.hour),
+              Number(parts.minute),
+              Number(parts.second)
+            );
+          }
+
+          function getNextServiceTime() {
+            const nowPhoenix = getNowInPhoenix();
+            const target = new Date(nowPhoenix);
+            target.setHours(19, 0, 0, 0); // 7:00 PM
+
+            if (nowPhoenix >= target) {
+              // If it's already past 7 PM in Phoenix, use tomorrow
+              target.setDate(target.getDate() + 1);
+            }
+
+            return target;
+          }
+
+          let targetTime = getNextServiceTime();
+
+          function updateCountdown() {
+            const nowPhoenix = getNowInPhoenix();
+            let diff = targetTime.getTime() - nowPhoenix.getTime();
+
+            // When we pass the target, roll to the next day's 7 PM
+            if (diff <= 0) {
+              targetTime = getNextServiceTime();
+              diff = targetTime.getTime() - nowPhoenix.getTime();
+            }
+
+            const totalSeconds = Math.floor(diff / 1000);
+            const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+            const minutes = String(
+              Math.floor((totalSeconds % 3600) / 60)
+            ).padStart(2, "0");
+            const seconds = String(totalSeconds % 60).padStart(2, "0");
+
+            countdownEl.textContent = `${hours}:${minutes}:${seconds}`;
+          }
+
+          updateCountdown();
+          setInterval(updateCountdown, 1000);
+        })();
+
+        // Volunteer slider (Swiper)
+        if (typeof Swiper !== "undefined") {
+          new Swiper(".volunteer-slider", {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 20,
+            loop: false,
+            grabCursor: true,
+            allowTouchMove: true,
+            autoplay: {
+              delay: 3000,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+              1400: {
+                slidesPerView: 4,
+              },
+            },
+          });
+        }
+
+        // Section + hero reveal on scroll (GSAP + ScrollTrigger)
+        if (window.gsap && window.ScrollTrigger) {
+          gsap.registerPlugin(ScrollTrigger);
+
+          // Hero: fade/slide in when it enters viewport
+          gsap.from(".hero-inner", {
+            autoAlpha: 0,
+            y: 40,
+            duration: 0.9,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: ".hero",
+              start: "top 80%",
+              toggleActions: "play none none reverse",
+            },
+          });
+
+          const sections = document.querySelectorAll(
+            ".content-section, .cta-section, .impact-section, .volunteer-section, .stories-section, .footer-section"
+          );
+
+          sections.forEach((section) => {
+            gsap.from(section, {
+              autoAlpha: 0,
+              y: 40,
+              duration: 0.8,
+              ease: "power2.out",
+              scrollTrigger: {
+                trigger: section,
+                start: "top 80%",
+                toggleActions: "play none none reverse",
+              },
+            });
+          });
+        }
+
+        // Navbar show/hide based on scroll direction (with GSAP if available)
+        (function () {
+          const navbar = document.querySelector(".navbar");
+          if (!navbar) return;
+
+          let lastScrollY = window.scrollY;
+          let ticking = false;
+          const MIN_DELTA = 5;
+          const MIN_SCROLL = 10;
+
+          if (window.gsap) {
+            let isHidden = false;
+            gsap.set(navbar, { y: 0, autoAlpha: 1 });
+
+            function hideNav() {
+              if (isHidden) return;
+              isHidden = true;
+              navbar.classList.add("navbar--hidden");
+              navbar.classList.remove("navbar--visible");
+              gsap.to(navbar, {
+                y: -100,
+                autoAlpha: 0,
+                duration: 0.4,
+                ease: "power3.out",
+              });
+            }
+
+            function showNav() {
+              if (!isHidden) return;
+              isHidden = false;
+              navbar.classList.remove("navbar--hidden");
+              navbar.classList.add("navbar--visible");
+              gsap.to(navbar, {
+                y: 0,
+                autoAlpha: 1,
+                duration: 0.4,
+                ease: "power3.out",
+              });
+            }
+
+            function updateNavbar() {
+              const currentY = window.scrollY;
+              const delta = currentY - lastScrollY;
+
+              if (Math.abs(delta) < MIN_DELTA) {
+                ticking = false;
+                return;
+              }
+
+              if (currentY > lastScrollY && currentY > MIN_SCROLL) {
+                // Scrolling down: tuck navbar away
+                hideNav();
+              } else {
+                // Scrolling up: reveal navbar
+                showNav();
+              }
+
+              lastScrollY = currentY;
+              ticking = false;
+            }
+
+            window.addEventListener("scroll", function () {
+              if (!ticking) {
+                window.requestAnimationFrame(updateNavbar);
+                ticking = true;
+              }
+            });
+          } else {
+            function updateNavbarFallback() {
+              const currentY = window.scrollY;
+              const delta = currentY - lastScrollY;
+
+              if (Math.abs(delta) < MIN_DELTA) {
+                ticking = false;
+                return;
+              }
+
+              if (currentY > lastScrollY && currentY > MIN_SCROLL) {
+                // Scrolling down: tuck navbar away
+                navbar.classList.remove("navbar--visible");
+                navbar.classList.add("navbar--hidden");
+              } else {
+                // Scrolling up: reveal navbar
+                navbar.classList.remove("navbar--hidden");
+                navbar.classList.add("navbar--visible");
+              }
+
+              lastScrollY = currentY;
+              ticking = false;
+            }
+
+            window.addEventListener("scroll", function () {
+              if (!ticking) {
+                window.requestAnimationFrame(updateNavbarFallback);
+                ticking = true;
+              }
+            });
+          }
+        })();
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
