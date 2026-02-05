@@ -681,17 +681,10 @@ select {
 }
 
 .impact-line-bottom {
-  padding-top: 85px;
+
   align-self: flex-end;
   transform: rotate(90deg);
   position: relative;
-  top: 35px;
-}
-
-@media (max-width: 991.98px) {
-  .impact-line-bottom {
-    padding-top: 0;
-  }
 }
 
 .impact-heading {
@@ -716,6 +709,7 @@ select {
   border-radius: var(--radius-sm);
   border: none;
   background-color: var(--color-brand-dark);
+  margin-bottom: 85px;
 }
 
 .btn-impact.btn-dark:hover,
