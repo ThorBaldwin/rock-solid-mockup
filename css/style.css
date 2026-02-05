@@ -695,6 +695,7 @@ select {
   text-decoration: none;
   border-radius: var(--radius-sm);
   border: none;
+  color: var(--color-brand-dark);
 }
 
 .btn-impact.btn-dark:hover,
