@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -293,6 +293,7 @@
       </section>
 
       <section class="impact-section">
+        <img src="assets/impact/line.svg" class="impact-line" alt="" />
         <h2 class="impact-heading text-center text-uppercase">
           <span class="text-dark">Rock Solid Church continues to hold out </span
           ><span class="text-primary">love</span
@@ -301,6 +302,11 @@
           >
         </h2>
         <a href="#" class="btn btn-impact btn-dark">Plan a Visit</a>
+        <img
+          src="assets/impact/line.svg"
+          class="impact-line impact-line-bottom"
+          alt=""
+        />
       </section>
 
       <section class="volunteer-section">
@@ -570,7 +576,7 @@
               Number(parts.day),
               Number(parts.hour),
               Number(parts.minute),
-              Number(parts.second)
+              Number(parts.second),
             );
           }
 
@@ -602,10 +608,10 @@
             const totalSeconds = Math.floor(diff / 1000);
             const hours = String(Math.floor(totalSeconds / 3600)).padStart(
               2,
-              "0"
+              "0",
             );
             const minutes = String(
-              Math.floor((totalSeconds % 3600) / 60)
+              Math.floor((totalSeconds % 3600) / 60),
             ).padStart(2, "0");
             const seconds = String(totalSeconds % 60).padStart(2, "0");
 
@@ -668,7 +674,7 @@
           });
 
           const sections = document.querySelectorAll(
-            ".content-section, .cta-section, .impact-section, .volunteer-section, .stories-section, .footer-section"
+            ".content-section, .cta-section, .impact-section, .volunteer-section, .stories-section, .footer-section",
           );
 
           sections.forEach((section) => {
